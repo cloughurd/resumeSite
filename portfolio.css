@@ -4,3 +4,51 @@ h1{
 	border-top: 2px solid #333;
 	border-bottom: 2px solid #333;
 }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #601;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #009;
+}
+
+section{
+	display:flex;
+}
+aside{
+	flex: 1;
+	float: left;
+}
+article{
+	font-size: 50px;
+	flex: 3;
+	float: right;
+}
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
